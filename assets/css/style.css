@@ -1,0 +1,186 @@
+/*header and topbar css*/
+h1 {
+	color: #ffffff;
+	font-family: 'Trirong', serif;
+	background-color: #4aaaa5;
+	transition: color 2s;
+}
+
+body {
+	background: url(../images/background.png);
+	color: #777777;
+	background-color: #ffffff;
+	font-family: 'Pontano Sans', sans-serif;
+	border-color: #dddddd;
+}
+
+
+header {
+	background-color: #ffffff;
+	border-bottom-color: #cccccc;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	box-sizing: border-box;
+	height: 75px;
+}
+
+/*heading - Ariel M. Costa*/
+.name {
+	background-color: #4aaaa5;
+	border: #cccccc;
+	text-align: center;
+	position: relative;
+	left: 25%;
+}
+
+.links {
+	position: relative;
+	right: 10%;
+}
+
+
+a {
+	text-decoration: none;
+	transition: background-color 1s ease;
+}
+
+a:link {
+	color: #cccccc;
+	
+}
+
+a:visited {
+	color: #4aaaa5;
+}
+
+/*hover color change only for navbar links*/
+.links a:hover {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+/*hover change only for h1*/
+h1:hover {
+	color: #7f7f7f;
+}
+
+.thumbnail:hover {
+	opacity: 0.5;
+}
+
+.foliolinks:hover {
+	opacity: 0.5;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	color: #cccccc;
+}
+
+/*main content css*/
+
+h2, h3, h4, h5 {
+	color: #4aaaa5;
+	font-family: 'Trirong', serif;
+}
+
+.caption {
+	text-align: center;
+}
+
+/*profile picture*/
+.profile {
+	float: left;
+	width: 150px;
+	height: auto;
+	margin: 10px;
+}
+
+/*links to portfolio projects*/
+.foliolinks {
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid #cccccc;
+}
+
+/*placeholder portfolio pictures*/
+.foliopic {
+	width: 268px; 
+	height: 174px
+}
+
+/*portfolio project name*/
+.project {
+	font-family: 'Trirong', serif;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 3em;
+	position: relative;
+	bottom: 65px;
+	margin-bottom: -65px;
+}
+
+
+/*connect with me section*/
+.connect {
+	background-color: #ffffff;
+    border: solid 2px #cccccc;
+    text-align: center;
+}
+
+
+
+/*connect with me logo images*/
+.social {
+	width: 50px; 
+	height: 50px;
+}
+
+
+input:hover {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
+textarea:hover {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
+/*contact me form*/
+input, textarea {
+	font-family: 'Pontano Sans', sans-serif;
+	color: #4aaaa5;
+	transition: color 1s, background-color 1s;
+}
+
+textarea {
+	min-height: 140px;
+	width: 95%;
+}
+
+body {
+	margin-bottom: 70px;
+}
+
+.footer {
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #4aaaa5;
+	height: 70px; 
+}
+
+.copyright {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: .75em;
+}
