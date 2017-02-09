@@ -50,7 +50,7 @@ a:visited {
 
 /*hover color change only for navbar links*/
 .links a:hover {
-	color: #ffffff;
+	color: #7f7f7f;
 	background-color: #be0828;
 }
 
@@ -139,6 +139,7 @@ h2, h3, h4, h5 {
 	width: 75px; 
 	height: auto;
 	opacity: 0.84;
+	border-radius: 50%;
 }
 
 
@@ -191,3 +192,9 @@ body {
 	padding-bottom: 20px;
 	font-size: .75em;
 }
+
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
