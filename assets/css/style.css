@@ -1,13 +1,11 @@
 /*header and topbar css*/
-h1 {
-	color: #ffffff;
-	font-family: 'Trirong', serif;
-	background-color: #4aaaa5;
-	transition: color 2s;
-}
 
 body {
-	background: url(../images/background.png);
+	background: url(../images/raspbg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #777777;
 	background-color: #ffffff;
 	font-family: 'Pontano Sans', sans-serif;
@@ -15,22 +13,19 @@ body {
 }
 
 
-header {
-	background-color: #ffffff;
-	border-bottom-color: #cccccc;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	box-sizing: border-box;
-	height: 75px;
-}
-
 /*heading - Ariel M. Costa*/
 .name {
-	background-color: #4aaaa5;
-	border: #cccccc;
+	background-color: #be0828;
 	text-align: center;
 	position: relative;
 	left: 25%;
+	color: #ffffff;
+	font-family: 'Trirong', serif;
+	transition: color 2s;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
 }
 
 .links {
@@ -45,18 +40,18 @@ a {
 }
 
 a:link {
-	color: #cccccc;
+	color: #ffffff;
 	
 }
 
 a:visited {
-	color: #4aaaa5;
+	color: #ffffff;
 }
 
 /*hover color change only for navbar links*/
 .links a:hover {
 	color: #ffffff;
-	background-color: #4aaaa5;
+	background-color: #be0828;
 }
 
 /*hover change only for h1*/
@@ -83,7 +78,7 @@ a:active {
 /*main content css*/
 
 h2, h3, h4, h5 {
-	color: #4aaaa5;
+	color: #be0828;
 	font-family: 'Trirong', serif;
 }
 
@@ -97,6 +92,10 @@ h2, h3, h4, h5 {
 	width: 150px;
 	height: auto;
 	margin: 10px;
+}
+
+.turtles {
+	background-color: rgba(255,255,255,0.74);
 }
 
 /*links to portfolio projects*/
@@ -115,7 +114,7 @@ h2, h3, h4, h5 {
 /*portfolio project name*/
 .project {
 	font-family: 'Trirong', serif;
-	background-color: #4aaaa5;
+	background-color: #be0828;
 	color: #ffffff;
 	text-align: center;
 	line-height: 3em;
@@ -130,27 +129,29 @@ h2, h3, h4, h5 {
 	background-color: #ffffff;
     border: solid 2px #cccccc;
     text-align: center;
+    background-color: rgba(255,255,255,0.84);
 }
 
 
 
 /*connect with me logo images*/
 .social {
-	width: 50px; 
-	height: 50px;
+	width: 75px; 
+	height: auto;
+	opacity: 0.84;
 }
 
 
 input:hover {
 	color: #ffffff;
 	font-weight: bold;
-	background-color: #4aaaa5;
+	background-color: #be0828;
 }
 
 textarea:hover {
 	color: #ffffff;
 	font-weight: bold;
-	background-color: #4aaaa5;
+	background-color: #be0828;
 }
 
 /*contact me form*/
@@ -170,13 +171,19 @@ body {
 }
 
 .footer {
-	background-color: #666666;
+	background-color: #93A5B1;
 	color: #ffffff;
 	text-align: center;
 	border-top-style: solid;
-	border-top-width: 7px;
-	border-top-color: #4aaaa5;
+	border-top-width: 4px;
+	border-top-color: #be0828;
 	height: 70px; 
+	opacity: 0.85;
+}
+
+.topbar {
+	opacity: 0.85;
+	background-color: #93A5B1
 }
 
 .copyright {
