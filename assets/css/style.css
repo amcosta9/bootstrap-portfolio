@@ -17,7 +17,6 @@ body {
 .name {
 	background-color: #be0828;
 	text-align: center;
-	position: relative;
 	left: 25%;
 	color: #ffffff;
 	font-family: 'Trirong', serif;
@@ -28,10 +27,6 @@ body {
 	color: #ffffff;
 }
 
-.links {
-	position: relative;
-	right: 10%;
-}
 
 
 a {
@@ -98,6 +93,10 @@ h2, h3, h4, h5 {
 	background-color: rgba(255,255,255,0.74);
 }
 
+.bears {
+	width: 100%;
+}
+
 /*links to portfolio projects*/
 .foliolinks {
 	display: inline-block;
@@ -142,6 +141,9 @@ h2, h3, h4, h5 {
 	border-radius: 50%;
 }
 
+.row-social {
+	display: inline-block;
+}
 
 input:hover {
 	color: #ffffff;
